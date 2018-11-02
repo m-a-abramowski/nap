@@ -1,7 +1,19 @@
 var links = [
-  "https://www.amazon.com/AmazonBasics-Premium-Anti-Fatigue-Standing-Comfort/dp/B00OUFX5AS?ref_=w_bl_hsx_s_ki_web_2528919011",
-  "https://www.amazon.com/AmazonBasics-3-Sided-Grill-Brush-12-Inch/dp/B01K3MKWCK?ref_=w_bl_hsx_s_ki_web_2528919011",
-  "https://www.amazon.com/AmazonBasics-Coffee-Storage-Carousel-K-Cup/dp/B010RLBZFU?ref_=w_bl_hsx_s_ki_web_2528919011",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 ]
 
 var i = 0;
@@ -15,7 +27,7 @@ function myLoop () {           //  create a loop function
      //   document.getElementById('modalclose').click();
      // }
 
-
+     console.log(i);
 
      document.getElementById('productaddbox').value = links[i];
      document.getElementById('productaddbutton').click();          //  your code here
