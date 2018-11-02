@@ -3,17 +3,6 @@ var links = [
 "",
 "",
 "",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
 ]
 
 var i = 0;
@@ -40,5 +29,5 @@ function myLoop () {           //  create a loop function
 
 myLoop();
 
-document.getElementById('productaddbox').value = links[i];
-document.getElementById('productaddbutton').click();
+// document.getElementById('productaddbox').value = links[i];
+// document.getElementById('productaddbutton').click();
